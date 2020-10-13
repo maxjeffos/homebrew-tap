@@ -1,9 +1,10 @@
-# Maxjeffos Tap-echoargs
+# homebrew-tap
+For figuring out how to make a Brew Tap
 
 ## How do I install these formulae?
-`brew install maxjeffos/tap-echoargs/<formula>`
+`brew install maxjeffos/tap/echoargs`
 
-Or `brew tap maxjeffos/tap-echoargs` and then `brew install <formula>`.
+Or `brew tap maxjeffos/tap` and then `brew install echoargs`.
 
 ## Documentation
 `brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
