@@ -4,11 +4,12 @@ class Echoargs < Formula
   version "v0.0.1"
 
 
-  url "https://raw.githubusercontent.com/maxjeffos/echoargs/master/bin/echoargs"
-  sha256 "aad9fe11bcc27e609d27ff6c224a70ae948985ba4c4da3197a3789b1bd8d65fe"
+  url "https://raw.githubusercontent.com/maxjeffos/echoargs/master/bundle/bundle.tar.gz"
+  sha256 "e651dce032bceed84f17289f25a4574270d567803665023a3c4d45dcb944fa25"
 
   def install
     bin.install "echoargs" => "echoargs"
+    bin.install "run-echoargs.sh" => "run-echoargs"
   end
 
 end
