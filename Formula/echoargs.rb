@@ -8,7 +8,7 @@ class Echoargs < Formula
   sha256 "e651dce032bceed84f17289f25a4574270d567803665023a3c4d45dcb944fa25"
 
   def install
-    bin.install "echoargs" => "echoargs"
+    bin.install "echoargs-bin" => "echoargs-bin"
     bin.install "run-echoargs.sh" => "run-echoargs"
   end
 
