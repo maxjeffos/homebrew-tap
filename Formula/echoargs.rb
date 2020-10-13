@@ -9,6 +9,7 @@ class Echoargs < Formula
 
   def install
     bin.install "echoargs" => "echoargs"
+    (bin/"somescript.sh").write_env_script "echo hello",
   end
 
 end
