@@ -1,4 +1,4 @@
-class EchoArgs < Formula
+class Echoargs < Formula
   desc "Brew Tap Experiment; echo input args"
   homepage "https://github.com/maxjeffos/homebrew-tap"
   version "v0.0.1"
