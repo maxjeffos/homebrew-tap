@@ -5,7 +5,7 @@ class Echoargs < Formula
 
 
   url "https://raw.githubusercontent.com/maxjeffos/echoargs/master/bundle/bundle.tar.gz"
-  sha256 "e651dce032bceed84f17289f25a4574270d567803665023a3c4d45dcb944fa25"
+  sha256 "cea4262ae8a1b851bd2387ab0a332fb8dbf1e21a738ccb2069e36acda7e5067d"
 
   def install
     bin.install "echoargs-bin" => "echoargs-bin"
