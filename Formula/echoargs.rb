@@ -9,7 +9,7 @@ class Echoargs < Formula
 
   def install
     bin.install "echoargs-bin" => "echoargs-bin"
-    bin.install "run-echoargs.sh" => "run-echoargs"
+    bin.install "run-echoargs.sh" => "echoargs"
   end
 
 end
